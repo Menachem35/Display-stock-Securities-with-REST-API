@@ -1,0 +1,9 @@
+<p>
+  The stock Securities:
+</p>
+
+<ul>
+	<li *ngFor="let stockList of mockSecutrities">
+		{{ stockList.id}}: Symbol: {{stockList.symbol}}. Price {{stockList.price}}. Change: {{stockList.change}}
+	</li> 
+</ul>
